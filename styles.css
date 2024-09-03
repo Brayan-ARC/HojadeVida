@@ -1,0 +1,203 @@
+/*Estilos para todo el cuerpo de la página*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333333;
+}
+
+/*Estilos para el Contenido dentro del div general*/
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background: #ececec;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-left: 8px solid #0f1626;
+}
+/*Estilos para Nombres y Profesión*/
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+.header h1 .nombre {
+    font-weight: 600;
+}
+
+.header h1 .apellido {
+    font-weight: 800;
+    color: #0f1626;
+}
+
+.header h2 {
+    font-size: 24px;
+    color: #666;
+    margin: 10px 0 0;
+}
+
+/*Estilos para Contacto*/
+.contacto {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.contacto p {
+    margin: 5px 0;
+    font-size: 18px;
+}
+
+.contacto img {
+    width: 20px;
+    height: auto;
+}
+
+.contacto a {
+    color: #0f1626;
+    text-decoration: none;
+}
+
+.contacto a:hover {
+    text-decoration: underline;
+}
+
+/*Estilos para Perfil*/
+.perfil {
+    background-color: #0f1626;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.perfil h3 {
+    margin-top: 0;
+    font-size: 24px;
+    border-bottom: 2px solid white;
+    padding-bottom: 10px;
+}
+
+.perfil p {
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/*Estilos para Intereses*/
+.intereses-container {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-top: 20px;
+}
+  
+.intereses-text {
+    font-size: 24px;
+    color: #0f1626;
+    font-weight: 600;
+}
+  
+.line {
+    flex-grow: 1;
+    height: 2px;
+    background-color: #0f1626;
+    margin-left: 10px;
+}
+  
+/*Estilos para contenido de Intereses*/
+.intereses-agrupados {
+    display: flex;
+    gap: 40px;
+}
+.intereses {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 85px;
+}
+.intereses img {
+    width: 20px;
+    height: auto;
+}
+
+/*Estilos de los Iconos*/
+.iconos {
+    background-color: #0f1626;
+    border-radius: 10px;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.iconos img {
+    width: 35px;
+    height: 35px;
+}
+.texto-icono {
+    font-size: 15px;
+    color: #0f1626;
+}
+
+/*Estilos para Herramientas*/
+.herramientas-container {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-top: 20px;
+}
+  
+.herramientas-text {
+    font-size: 24px;
+    color: #0f1626;
+    font-weight: 600;
+}
+  
+.line-h {
+    flex-grow: 1;
+    height: 2px;
+    background-color: #0f1626;
+    margin-left: 10px;
+}
+  
+/*Estilos para contenido de Herramientas*/
+.herramientas-agrupadas {
+    display: flex;
+    gap: 50px;
+    padding-bottom: 40px;
+}
+.herramientas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 85px;
+}
+.herramientas img {
+    width: 20px;
+    height: auto;
+}
+
+/*Estilos de Iconos de las Herramientas*/
+.iconos-h {
+    background-color: #0f1626;
+    border-radius: 10px;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.iconos-h img {
+    width: 35px;
+    height: 35px;
+}
+.texto-icono-h {
+    font-size: 15px;
+    color: #0f1626;
+}
